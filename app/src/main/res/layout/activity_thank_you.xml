@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank You"
+        android:textSize="44sp"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="50dp"
+        android:id="@+id/thankYou"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your order has been placed"
+        android:textSize="22sp"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:id="@+id/orderMsg"
+        android:layout_below="@id/thankYou"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orderMsg"
+        android:paddingTop="20dp"
+        android:layout_margin="20dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Order More..."
+            android:onClick="orderMore"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Sign Out"
+            android:onClick="signOut"/>
+    </LinearLayout>
+
+</RelativeLayout>

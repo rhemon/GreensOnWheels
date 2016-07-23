@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Green$ on Wheel$</string>
+    <string name="launcher_label">GOW</string>
+    <string name="title_activity_thank_you">ThankYouActivity</string>
+</resources>
